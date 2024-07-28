@@ -1,6 +1,6 @@
 import HttpError from './HttpError.js'
 
-export class NotFoundError extends HttpError {
+export default class NotFoundError extends HttpError {
     message
     statusCode
 

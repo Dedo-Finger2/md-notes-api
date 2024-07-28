@@ -1,6 +1,6 @@
 import HttpError from './HttpError.js'
 
-export class InternalServerError extends HttpError {
+export default class InternalServerError extends HttpError {
     message
     statusCode
 
