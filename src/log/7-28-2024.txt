@@ -358,3 +358,84 @@
 
 ------------------------------------------
 
+[DATE]: 7/28/2024, 10:13:56 AM
+[ACTION]: test user credentials by requesting using octokit
+[TYPE]: error
+[ERROR TYPE]: octokit
+[MESSAGE]: request returned 401 which means the credentials are invalid
+[FILE PATH]: file:62 at line 20):undefined 
+
+------------------------------------------
+
+[DATE]: 7/28/2024, 10:14:10 AM
+[ACTION]: test user credentials by requesting using octokit
+[TYPE]: error
+[ERROR TYPE]: octokit
+[MESSAGE]: request returned 404 which means the credentials are either correct, but nothing was found or empty
+[FILE PATH]: file:51 at line 20):undefined 
+
+------------------------------------------
+
+[DATE]: 7/28/2024, 10:14:18 AM
+[ACTION]: test user credentials by requesting using octokit
+[TYPE]: error
+[ERROR TYPE]: octokit
+[MESSAGE]: request returned 401 which means the credentials are invalid
+[FILE PATH]: file:62 at line 20):undefined 
+
+------------------------------------------
+
+[DATE]: 7/28/2024, 10:14:18 AM
+[ACTION]: test user credentials by requesting using octokit
+[TYPE]: error
+[ERROR TYPE]: octokit
+[MESSAGE]: request returned 404 which means the credentials are either correct, but nothing was found or empty
+[FILE PATH]: file:51 at line 20):undefined 
+
+------------------------------------------
+
+[DATE]: 7/28/2024, 10:14:19 AM
+[ACTION]: user github credentials checking
+[TYPE]: action
+[ERROR TYPE]: undefined
+[MESSAGE]: system checked user credentials by requesting octokit. Dedo-Finger2, digital-brain-2024
+[FILE PATH]: file:39 at line 16):undefined 
+
+------------------------------------------
+
+[DATE]: 7/28/2024, 10:14:29 AM
+[ACTION]: test user credentials by requesting using octokit
+[TYPE]: error
+[ERROR TYPE]: octokit
+[MESSAGE]: request returned 401 which means the credentials are invalid
+[FILE PATH]: file:62 at line 20):undefined 
+
+------------------------------------------
+
+[DATE]: 7/28/2024, 10:14:29 AM
+[ACTION]: test user credentials by requesting using octokit
+[TYPE]: error
+[ERROR TYPE]: octokit
+[MESSAGE]: request returned 404 which means the credentials are either correct, but nothing was found or empty
+[FILE PATH]: file:51 at line 20):undefined 
+
+------------------------------------------
+
+[DATE]: 7/28/2024, 10:14:29 AM
+[ACTION]: user github credentials checking
+[TYPE]: action
+[ERROR TYPE]: undefined
+[MESSAGE]: system checked user credentials by requesting octokit. Dedo-Finger2, digital-brain-2024
+[FILE PATH]: file:39 at line 16):undefined 
+
+------------------------------------------
+
+[DATE]: 7/28/2024, 3:23:35 PM
+[ACTION]: user requesting files
+[TYPE]: action
+[ERROR TYPE]: undefined
+[MESSAGE]: user Dedo-Finger2 requested repo digital-brain-2024 files through path undefined
+[FILE PATH]: file:68 at line 16):undefined 
+
+------------------------------------------
+
