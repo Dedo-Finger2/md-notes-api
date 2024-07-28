@@ -1,5 +1,6 @@
 import { Octokit } from 'octokit'
 import InvalidResourceError from './../errors/http/InvalidResource.error.js'
+import NotFoundError from './../errors/http/NotFoundError.error.js'
 import log from './../../shared/log.js'
 import { left, right } from './../errors/Either.js'
 
@@ -35,13 +36,32 @@ export default class RegisterUserCredentials {
                 },
             })
 
+            log(
+                'user github credentials checking',
+                `system checked user credentials by requesting octokit. ${input.userName}, ${input.repositoryName}`,
+                {
+                    error: false,
+                },
+            )
+
             return right(true)
         } catch (error) {
             console.error(error)
             if (error.status === 404) {
                 log(
                     'test user credentials by requesting using octokit',
-                    'request returned 404 which means some of the users credentials is wrong',
+                    'request returned 404 which means the credentials are either correct, but nothing was found or empty',
+                    {
+                        error: true,
+                        errorType: 'octokit',
+                    },
+                )
+                return left(new NotFoundError('Not found.'))
+            }
+            if (error.status === 401) {
+                log(
+                    'test user credentials by requesting using octokit',
+                    'request returned 401 which means the credentials are invalid',
                     {
                         error: true,
                         errorType: 'octokit',
