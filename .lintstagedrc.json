@@ -1,0 +1,7 @@
+{
+    "*.js": [
+        "eslint 'src/**/*.js' --fix",
+        "prettier 'src/**/*.js' --write",
+        "pnpm test:staged"
+    ]
+}
