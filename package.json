@@ -35,6 +35,8 @@
         "dotenv": "^16.4.5",
         "express": "^4.19.2",
         "octokit": "^4.0.2",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^5.0.1",
         "valibot": "^0.36.0"
     }
 }

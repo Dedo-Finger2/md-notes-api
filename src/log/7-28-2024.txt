@@ -313,3 +313,48 @@
 
 ------------------------------------------
 
+[DATE]: 7/28/2024, 9:39:57 AM
+[ACTION]: test user credentials by requesting using octokit
+[TYPE]: error
+[ERROR TYPE]: octokit
+[MESSAGE]: request returned 401 which means the credentials are invalid
+[FILE PATH]: file:62 at line 20):undefined 
+
+------------------------------------------
+
+[DATE]: 7/28/2024, 9:39:57 AM
+[ACTION]: test user credentials by requesting using octokit
+[TYPE]: error
+[ERROR TYPE]: octokit
+[MESSAGE]: request returned 404 which means the credentials are either correct, but nothing was found or empty
+[FILE PATH]: file:51 at line 20):undefined 
+
+------------------------------------------
+
+[DATE]: 7/28/2024, 9:39:57 AM
+[ACTION]: user github credentials checking
+[TYPE]: action
+[ERROR TYPE]: undefined
+[MESSAGE]: system checked user credentials by requesting octokit. Dedo-Finger2, digital-brain-2024
+[FILE PATH]: file:39 at line 16):undefined 
+
+------------------------------------------
+
+[DATE]: 7/28/2024, 10:10:44 AM
+[ACTION]: test user credentials by requesting using octokit
+[TYPE]: error
+[ERROR TYPE]: octokit
+[MESSAGE]: request returned 401 which means the credentials are invalid
+[FILE PATH]: file:///home/aneto/Documents/Projects/BackEnd/Node/md-notes-api/src/domain/use-cases/RegisterUserCredentials.use-case.js at line 62:17) 
+
+------------------------------------------
+
+[DATE]: 7/28/2024, 10:10:44 AM
+[ACTION]: attempted to check if users credentials are valid in the controller
+[TYPE]: error
+[ERROR TYPE]: octokit
+[MESSAGE]: method returned a Left
+[FILE PATH]: file:///home/aneto/Documents/Projects/BackEnd/Node/md-notes-api/src/http/controllers/RegisterUserCredentials.controller.js at line 22:17) 
+
+------------------------------------------
+
