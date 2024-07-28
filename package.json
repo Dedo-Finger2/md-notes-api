@@ -8,7 +8,7 @@
         "start": "node --watch --env-file .env src/server.js",
         "test": "vitest run",
         "test:watch": "vitest",
-        "test:staged": "vitest run",
+        "test:staged": "vitest run --passWithNoTests",
         "test:unit": "vitest run src/test/unit/*.unit.test.js",
         "test:unit:watch": "vitest --watch src/**/test/unit/*.unit.test.js",
         "test:integration": "vitest run src/**/test/integration/*.integration.test.js",
