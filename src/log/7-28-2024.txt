@@ -1,0 +1,9 @@
+[DATE]: 7/28/2024, 6:40:21 AM
+[ACTION]: test user credentials by requesting using octokit
+[TYPE]: error
+[ERROR TYPE]: octokit
+[MESSAGE]: request returned 404 which means some of the users credentials is wrong
+[FILE PATH]: file:42 at line 20):undefined 
+
+------------------------------------------
+
