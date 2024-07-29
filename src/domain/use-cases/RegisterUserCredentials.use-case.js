@@ -1,7 +1,7 @@
 import { Octokit } from 'octokit'
 import InvalidResourceError from './../errors/http/InvalidResource.error.js'
 import NotFoundError from './../errors/http/NotFoundError.error.js'
-import log from './../../shared/log.js'
+import log from './../../shared/Log.js'
 import { left, right } from './../errors/Either.js'
 
 // eslint-disable-next-line no-unused-vars
@@ -35,40 +35,35 @@ export default class RegisterUserCredentials {
                     'X-GitHub-Api-Version': '2022-11-28',
                 },
             })
-
-            log(
-                'user github credentials checking',
-                `system checked user credentials by requesting octokit. ${input.userName}, ${input.repositoryName}`,
-                {
-                    error: false,
-                },
-            )
-
+            await log.action({
+                action: 'RegisterUserCredentials',
+                error: null,
+                message: `User ${input.userName} registered their credentials`,
+            })
             return right(true)
         } catch (error) {
             console.error(error)
             if (error.status === 404) {
-                log(
-                    'test user credentials by requesting using octokit',
-                    'request returned 404 which means the credentials are either correct, but nothing was found or empty',
-                    {
-                        error: true,
-                        errorType: 'octokit',
-                    },
-                )
+                await log.expectedError({
+                    action: 'RegisterUserCredentials',
+                    error: 'OCTOKIT_HTTP_ERROR (404)',
+                    message: `User ${input.userName} tried to registered their credentials but got a 404 http status code. Probably their credentials are empty or wrong.`,
+                })
                 return left(new NotFoundError('Not found.'))
             }
             if (error.status === 401) {
-                log(
-                    'test user credentials by requesting using octokit',
-                    'request returned 401 which means the credentials are invalid',
-                    {
-                        error: true,
-                        errorType: 'octokit',
-                    },
-                )
+                await log.expectedError({
+                    action: 'RegisterUserCredentials',
+                    error: 'OCTOKIT_HTTP_ERROR (401)',
+                    message: `User ${input.userName} tried to registered their credentials but got a 401 http status code. Probably their credentials invalid.`,
+                })
                 return left(new InvalidResourceError('Invalid credentials.'))
             }
+            await log.unexpectedError({
+                action: 'AccessFile',
+                error: error,
+                message: error.message,
+            })
             return left(false)
         }
     }
