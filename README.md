@@ -12,6 +12,9 @@
   <img src="https://img.shields.io/badge/Obsidian-%23483699.svg?style=for-the-badge&logo=obsidian&logoColor=white"/>
 </p>
 
+[![GitHub license](https://badgen.net/github/license/Dedo-Finger2/nlw-journey-node)](https://github.com/Dedo-Finger2/nlw-journey-node/blob/master/LICENSE)
+[![GitHub latest commit](https://badgen.net/github/last-commit/Dedo-Finger2/nlw-journey-node)](https://github.com/Dedo-Finger2/nlw-journey-node/commit/)
+
 Este projeto é uma API de um projeto que, com auxilio da API REST oficial do GitHub, permite aos usuários acessar e gerenciar suas anotações em Markdown armazenadas em qualquer repositório do usuário de forma prática e eficiente. 
 
 O projeto é ideal para usuários que utilizam o GitHub como um repositório de backups e sincronização para anotações, como os usuários do Obsidian ou LogSeq. Ambos apps com funções de sincronização de arquivos pagas, porém com plugins que tornam a sincronização através do GitHub possível.
