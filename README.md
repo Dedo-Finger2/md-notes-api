@@ -63,6 +63,27 @@ Muitos usuários enfrentam limitações com softwares de anotações em markdown
 
 ---
 
+### Arquitetura do projeto
+
+*COMING SOON...*
+
+---
+
+### 🖥️ Tecnologias usadas
+
+|Tecnologia|Uso|
+|---|---|
+|JavaScript|Linguagem usada|
+|NodeJS|Runtime JS usada|
+|Express|Servidor HTTP|
+|Valibot|Validação de alguns dados|
+|Eslint|Formatação e padronização de código|
+|Prettier|Formatação e padronização de código|
+|Husky|Execução de comandos antes de commits|
+|Lint-Staged|Execução de scripts somente em arquivos staged|
+
+---
+
 ### 🗎 Documentação da API
 
 A documentação da API pode ser acessada através da rota `/api/docs` na porta padrão do projeto (3000).
@@ -76,5 +97,5 @@ A documentação da API pode ser acessada através da rota `/api/docs` na porta 
 ### 📱 Contato
 
 - LinkedIn: www.linkedin.com/in/antonio-mauricio-4645832b3
-- Instagram: 
-- Email: 
+- Instagram: https://www.instagram.com/antonioalmeida2003/
+- Email: antonioimportant@gmail.com
