@@ -63,21 +63,15 @@ Muitos usuários enfrentam limitações com softwares de anotações em markdown
 
 ---
 
-### Documentação da API
+### 🗎 Documentação da API
 
-A documentação da API pode ser acessada através da rota /api/docs na porta padrão do projeto (3000).
+A documentação da API pode ser acessada através da rota `/api/docs` na porta padrão do projeto (3000).
+
+> OBS: A documentação está na versão inicial, sendo assim será atualizada após a refatoração do código.
+
+![api-docs](https://github.com/Dedo-Finger2/md-notes-api/blob/master/public/md-notes-api-docs.png?raw=true)
 
 ---
-
-### Tutoriais / Dúvidas
-
-> Como obtenho meu Personal Token?
-
-> E se meu token expirar, o que eu faço?
-
-> Quantas pessoas mantem o projeto atualmente?
-
-> Quais são os planos futuros para o projeto?
 
 ### 📱 Contato
 
