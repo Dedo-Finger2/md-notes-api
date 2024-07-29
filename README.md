@@ -60,7 +60,7 @@ Muitos usuários enfrentam limitações com softwares de anotações em markdown
 
 ---
 
-### Contato
+### 📱 Contato
 
 - LinkedIn: www.linkedin.com/in/antonio-mauricio-4645832b3
 - Instagram: 
