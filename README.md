@@ -1,12 +1,22 @@
-# MD Notes
+# 📝 MD Notes
 
-### 🌟 Descrição
+![cover](https://raw.githubusercontent.com/Dedo-Finger2/md-notes-api/master/public/cover.png)
+
+<h3 align="center">📝 Veja suas anotações em qualquer lugar e a qualquer momento 📝</h3>
+
+---
+
+<p align="center">
+    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+  <img src="https://img.shields.io/badge/Obsidian-%23483699.svg?style=for-the-badge&logo=obsidian&logoColor=white"/>
+</p>
 
 Este projeto é uma plataforma WEB inovadora, que usando a API REST do GitHub, permite aos usuários acessar e gerenciar suas anotações em Markdown armazenadas no GitHub de forma prática e eficiente. 
 
 O projeto é ideal para usuários que utilizam o GitHub como um repositório de backups e sincronização para anotações, como os usuários do Obsidian ou LogSeq. Ambos apps com funções de sincronização de arquivos pagas, porém com plugins que tornam a sincronização através do GitHub possível.
 
-Através do **MD Notes**, você pode acessar suas anotações de qualquer dispositivo, seja um smartphone ou outro computador. Com simplicidade e facilidade uso.
+Através do MD Notes, você pode acessar suas anotações de qualquer dispositivo, seja um smartphone ou outro computador. Com simplicidade e facilidade uso.
 
 ---
 
