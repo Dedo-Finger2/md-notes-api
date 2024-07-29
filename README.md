@@ -66,8 +66,11 @@ Muitos usuários enfrentam limitações com softwares de anotações em markdown
 ### Tutoriais / Dúvidas
 
 > Como obtenho meu Personal Token?
+
 > E se meu token expirar, o que eu faço?
+
 > Quantas pessoas mantem o projeto atualmente?
+
 > Quais são os planos futuros para o projeto?
 
 ### 📱 Contato
