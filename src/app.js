@@ -7,6 +7,7 @@ const app = express()
 
 import registerUserCredentialsRoute from './http/routes/register-user-credentials.route.js'
 import accessPathRoute from './http/routes/access-path.route.js'
+import accessFileRoute from './http/routes/access-file.route.js'
 
 export default function bootstrap() {
     const options = {
@@ -25,6 +26,7 @@ export default function bootstrap() {
     app.use(cookieParser())
     app.use(registerUserCredentialsRoute)
     app.use(accessPathRoute)
+    app.use(accessFileRoute)
     app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(swaggerConfig))
     return app
 }
