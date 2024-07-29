@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Obsidian-%23483699.svg?style=for-the-badge&logo=obsidian&logoColor=white"/>
 </p>
 
-Este projeto é uma plataforma WEB inovadora, que usando a API REST do GitHub, permite aos usuários acessar e gerenciar suas anotações em Markdown armazenadas no GitHub de forma prática e eficiente. 
+Este projeto é uma API de um projeto que, com auxilio da API REST oficial do GitHub, permite aos usuários acessar e gerenciar suas anotações em Markdown armazenadas em qualquer repositório do usuário de forma prática e eficiente. 
 
 O projeto é ideal para usuários que utilizam o GitHub como um repositório de backups e sincronização para anotações, como os usuários do Obsidian ou LogSeq. Ambos apps com funções de sincronização de arquivos pagas, porém com plugins que tornam a sincronização através do GitHub possível.
 
@@ -59,6 +59,13 @@ Muitos usuários enfrentam limitações com softwares de anotações em markdown
 - [x] **Suporte Exclusivo**: Suportar apenas arquivos Markdown.
 
 ---
+
+### Tutoriais / Dúvidas
+
+> Como obtenho meu Personal Token?
+> E se meu token expirar, o que eu faço?
+> Quantas pessoas mantem o projeto atualmente?
+> Quais são os planos futuros para o projeto?
 
 ### 📱 Contato
 
