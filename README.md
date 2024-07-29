@@ -63,6 +63,12 @@ Muitos usuários enfrentam limitações com softwares de anotações em markdown
 
 ---
 
+### Documentação da API
+
+A documentação da API pode ser acessada através da rota /api/docs na porta padrão do projeto (3000).
+
+---
+
 ### Tutoriais / Dúvidas
 
 > Como obtenho meu Personal Token?
