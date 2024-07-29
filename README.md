@@ -69,6 +69,12 @@ Muitos usuários enfrentam limitações com softwares de anotações em markdown
 
 ---
 
+### Como rodar a API localmente
+
+*COMING SOON...*
+
+---
+
 ### 🖥️ Tecnologias usadas
 
 |Tecnologia|Uso|
