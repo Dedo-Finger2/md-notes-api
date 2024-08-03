@@ -1,8 +1,10 @@
 import { Router } from 'express'
 import AccessFile from '../../domain/use-cases/AccessFile.use-case.js'
 import AccessFileController from '../controllers/AccessFile.controller.js'
+import GithubRepository from '../../repository/implementation/Github.repository.js'
 
-const useCase = new AccessFile()
+const repository = new GithubRepository()
+const useCase = new AccessFile(repository)
 const controller = new AccessFileController({
   accessFileUseCase: useCase,
 })

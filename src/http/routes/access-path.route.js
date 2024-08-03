@@ -1,8 +1,10 @@
 import { Router } from 'express'
 import AccessPath from '../../domain/use-cases/AccessPath.use-case.js'
 import AccessPathController from '../controllers/AccessPath.controller.js'
+import GithubRepository from '../../repository/implementation/Github.repository.js'
 
-const useCase = new AccessPath()
+const repository = new GithubRepository()
+const useCase = new AccessPath(repository)
 const controller = new AccessPathController({
   accessPathUseCase: useCase,
 })

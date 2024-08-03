@@ -1,4 +1,5 @@
 import AccessPath from '../../domain/use-cases/AccessPath.use-case.js'
+import GithubRepository from '../../repository/implementation/Github.repository.js'
 import env from './../../env.js'
 import { test, expect } from 'vitest'
 
@@ -9,7 +10,8 @@ test('Deve ser retornado um array contendo os arquivos e pastas em dado path', a
     personalToken: env.PERSONAL_TOKEN,
     defaultPath: env.DEFAULT_PATH,
   }
-  const sut = new AccessPath()
+  const repository = new GithubRepository()
+  const sut = new AccessPath(repository)
 
   const response = await sut.execute(userData)
 

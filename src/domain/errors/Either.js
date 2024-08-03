@@ -1,41 +1,41 @@
 class Right {
-    #value
+  #value
 
-    constructor({ value }) {
-        this.#value = value
-    }
+  constructor({ value }) {
+    this.#value = value
+  }
 
-    isRight() {
-        return true
-    }
+  isRight() {
+    return true
+  }
 
-    isLeft() {
-        return false
-    }
+  isLeft() {
+    return false
+  }
 
-    get value() {
-        return this.#value
-    }
+  get value() {
+    return this.#value
+  }
 }
 
 class Left {
-    #value
+  #value
 
-    constructor({ value }) {
-        this.#value = value
-    }
+  constructor({ value }) {
+    this.#value = value
+  }
 
-    isRight() {
-        return false
-    }
+  isRight() {
+    return false
+  }
 
-    isLeft() {
-        return true
-    }
+  isLeft() {
+    return true
+  }
 
-    get value() {
-        return this.#value
-    }
+  get value() {
+    return this.#value
+  }
 }
 
 export const right = (value) => new Right({ value })
