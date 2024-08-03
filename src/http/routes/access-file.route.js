@@ -4,7 +4,7 @@ import AccessFileController from '../controllers/AccessFile.controller.js'
 
 const useCase = new AccessFile()
 const controller = new AccessFileController({
-    accessFileUseCase: useCase,
+  accessFileUseCase: useCase,
 })
 
 const accessFileRoute = Router()

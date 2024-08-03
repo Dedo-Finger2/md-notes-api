@@ -4,7 +4,7 @@ import RegisterUserCredentials from './../../domain/use-cases/RegisterUserCreden
 
 const useCase = new RegisterUserCredentials()
 const controller = new RegisterUserCredentialsController({
-    registerUserCredentialsUseCase: useCase,
+  registerUserCredentialsUseCase: useCase,
 })
 
 const registerUserCredentialsRoute = Router()

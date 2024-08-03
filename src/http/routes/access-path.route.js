@@ -4,7 +4,7 @@ import AccessPathController from '../controllers/AccessPath.controller.js'
 
 const useCase = new AccessPath()
 const controller = new AccessPathController({
-    accessPathUseCase: useCase,
+  accessPathUseCase: useCase,
 })
 
 const accessPathRoute = Router()
